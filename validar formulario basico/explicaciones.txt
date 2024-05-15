@@ -1,0 +1,12 @@
+Expresión regular
+Comúnmente conocida como regex (abreviatura de regular expression), es una secuencia de caracteres que forma un patrón de búsqueda. Estos patrones se utilizan principalmente para la búsqueda y manipulación de texto en cadenas de caracteres.
+
+En JavaScript, las expresiones regulares se crean utilizando el objeto RegExp o utilizando la notación literal /.../. Aquí hay un ejemplo de ambas formas de crear una expresión regular para buscar la palabra "hola" en una cadena:
+
+// Creación de expresión regular utilizando el objeto RegExp
+const expresionRegular1 = new RegExp("hola");
+
+// Creación de expresión regular utilizando la notación literal
+const expresionRegular2 = /hola/;
+
+--------------------------------------------------------------------------------

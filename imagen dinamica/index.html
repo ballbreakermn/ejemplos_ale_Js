@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .galeria {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 0 auto;
+            max-width: 80%;
+
+            & div {
+                text-align: center;
+            }
+
+            & img {
+                display: block;
+                margin: auto;
+            }
+
+        }
+    </style>
+    <title>Imagen dinamica</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Galeria de Imagenes</h1>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <input type="text" name="" id="imagenURL" placeholder="URL de la imagen">
+        <input type="text" name="" id="pieFoto" placeholder="pie de foto">
+        <input type="submit" name="" id="agregaImagen" value="Agregar">
+    </div>
+    <div class="galeria" id="galeriaImagenes">
+        <div>
+            <img src="img/boat-8614314_640.jpg" alt="imagen 1" width="300" height="250">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <img src="img/mountain-8433234_640.jpg" alt="imagen 2" width="300" height="250">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <img src="img/road-1072821_640.jpg" alt="imagen 3" width="300" height="250">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <img src="img/sunset-8516639_640.jpg" alt="imagen 4" width="300" height="250">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
